@@ -1,0 +1,43 @@
+:root {
+  --cor-fundo-body: #7e57c2;
+  --cor-texto-section: #ede7f6;
+  --cor-section-bg: #7e57c2;
+  --cor-btn-bg: #7e57c2;
+  --cor-btn-bg-hover: #5e35b1;
+  --cor-btn-texto:#ede7f6 ;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  padding: 0;
+  background-color: var(--cor-fundo-body);
+}
+
+section {
+  background-color: var(--cor-section-bg);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 30px;
+  gap: 80px;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: var(--cor-btn-texto);
+}
+
+.btn-voltar {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: var(--cor-btn-bg);
+  color: var(--cor-btn-texto);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(126, 87, 194, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.btn-voltar:hover {
+  background-color: var(--cor-btn-bg-hover);
+}
